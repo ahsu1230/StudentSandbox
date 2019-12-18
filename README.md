@@ -3,7 +3,24 @@ A sandbox repo for students to practice using Git and Github
 
 Video of Command Line commands: <https://www.youtube.com/watch?v=eL_0Ok_Gkas>
 
-## **Basic commands to use:**
+## **Basic Command Line Operations:**
+
+"cd" - Stands for Change Directory
+```
+cd @nextDirectory
+```
+
+"mkdir" - Makes a new Directory
+```
+mkdir @nameOfNewDirectory
+```
+
+"ls" - Lists all the files and directories
+```
+ls
+```
+
+## **Basic Git Commands to use:**
 
   - **Creating and Switching branches:**
 
@@ -36,4 +53,11 @@ git commit -m '@text'
 "push" - Used to upload local repository content to a remote repository.
 ```
 git push origin @nameOfBranch
+```
+  - **Other Commands that are Useful**
+"help <verb>" or < "<verb> --help" - a list of the most commonly used git commands are printed on the standard output 
+```
+git <verb> --help
+      or
+git help <verb>
 ```
