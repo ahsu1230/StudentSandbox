@@ -1,7 +1,15 @@
 # StudentSandbox
 A sandbox repo for students to practice using Git and Github.
 
-Video of Git Command Line commands: <https://www.youtube.com/watch?v=eL_0Ok_Gkas>
+## Introduction Videos about Git
+ - Intro to Git and Github: https://www.youtube.com/watch?v=r50BKIFGCI0
+ - Creating your own Repository: https://www.youtube.com/watch?v=hMfi_ONvGEs
+ - Branching: https://www.youtube.com/watch?v=iJKIxrJ40ss&t=9s
+ - Pull Requests: https://www.youtube.com/watch?v=nT8KGYVurIU&t=5s
+ - Installing Git:
+   - Mac: https://www.youtube.com/watch?v=YXXp_ht4pwQ
+   - Windows: https://www.youtube.com/watch?v=O72FWNeO-xY
+ - Git Command Line commands: <https://www.youtube.com/watch?v=eL_0Ok_Gkas>
 
 ## **Basic Git Commands to use:**
 
