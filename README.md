@@ -46,19 +46,19 @@ git <verb> --help
 git help <verb>
 ```
 
-# Directions
+## Directions
  - Clone this repo to your local computer.
  - Create a local branch (`git branch`)
  - Make changes to the `index.html` file. Simply add a line like this: 
  ```
   <li> Pikachu was here! </li> 
  ```
-Add the line inside the <ul> tags and beneath the previous person.
+Add the line inside the `<ul>` tags and beneath the previous person.
 
  - Add and push your changes (`git add` and `git commit` and `git push`)
  - Once your changes are pushed to a remote branch, follow the below directions to create a pull request.
 
-# Creating a Pull Request
+## Creating a Pull Request
 
 Once your changes are pushed, come to this Github repo website and look for the Branches tab. You should see your branch and there should be a "Create Pull Request" button next to your branch.
 Once a Pull Request is created, tag me using @ahsu1230 to notify me that this pull request has been created.
