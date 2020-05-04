@@ -11,6 +11,8 @@ However, if I make a comment and request additional changes from you (i.e. you h
 - Create another commit using `git commit -m ___`
 - Push your commit to the remote with `git push origin ____`
 
+## Guide Recap
+
 Let's take a moment to review what you learned in this guide.
 
 - What is version control?
@@ -19,10 +21,10 @@ Let's take a moment to review what you learned in this guide.
 - What is a Git Commit?
 - What is Git Branching?
   - Local Branch vs. Remote Branch
-- Using Github website portal
+- Using the Github website portal
 - Using your operating system's Command Line Interface (CLI): Terminal / Command Prompt
 - Using the Git CLI
-- Creating and updating a Pull Request with Git!
+- Creating and updating a Pull Request with Git
 
 Again, great work! Version Control systems like Git are frequently and widely used in the coding world. Even if you don't pursue a career in software development, it's a skillset that is very much appreciated by companies, research groups or even for small projects!
 
