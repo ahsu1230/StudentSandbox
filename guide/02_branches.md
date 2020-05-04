@@ -38,4 +38,4 @@ Local branches are branches of repositories that exist on individual computers. 
 
 ---
 
-[Continue](./02_branches.md)
+[Continue](./03_github_portal.md)
