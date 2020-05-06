@@ -1,8 +1,8 @@
 # What is Vim?
 
-Vim is just a very simple text editor built into most Command Line Interfaces. Unlike a personal computer, many machines are often optimized to only run the programs they need to, so they won't be installing extra programs like Notepad, SublimeText, Atom, etc. just to edit text files. These extra programs would take up too much computer resources and/or unnecessarily bump into version compatibility or bug issues. Vim is a pretty old program (available since 1990s) and so is super stable and widely available across all platforms.
+Vim is just a very simple text editor built into Command Line Interfaces across all operating systems. Unlike a personal computer, many machines are often optimized to only run the programs they need to, so they won't be installing extra programs like Notepad, SublimeText, Atom, etc. just to edit text files. These extra programs would take up too much computer resources and bump into version compatibility issues or unnecessary bugs. Vim is a pretty old program (available since 1990s), so it is super stable across all platforms.
 
-From this article <https://medium.com/@fay_jai/what-is-vim-and-why-use-vim-54c67ce3c18e>, the author talks about why Vim is so special: Efficiency and Ubiquity.
+From this article <https://medium.com/@fay_jai/what-is-vim-and-why-use-vim-54c67ce3c18e>, the author talks about what makes Vim so special: Efficiency and Ubiquity.
 
 TLDR:
 > Efficiency: Vim allows you to be efficient by forcing you to only use the keyboard (yes, that means no more mouse!) and then giving you the ability to use existing keyboard shortcuts as well as customize and create new ones for completing repetitive tasks quickly.
@@ -39,3 +39,15 @@ For more Vim commands, you can also view this video: <https://www.youtube.com/wa
 In this mode, you can insert and delete characters (using the Backspace) as "normal". This is your main "writing" mode.
 
 - `ESC` Exit Insert Mode, revert back to Command mode
+
+### Using Vim directly
+
+If you ever want to edit files directly (without using Git), you can simply use:
+
+```unix
+vi FILE_NAME
+```
+
+And it will open the file in Vim to Command Mode.
+
+If Vim is not installed on your machine for some reason, follow the directions on this page: <https://www.vim.org/git.php>. This page will have you install Vim through Github. You'll want to use `git clone` in a directory outside of this `StudentSandbox` repository. *You may have to restart Terminal or Command Prompt after installtion.*

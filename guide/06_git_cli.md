@@ -38,14 +38,14 @@ This command takes the remote branch `branch_aaron2` from Github and pulls (a.k.
 
 ## Make More Changes
 
-We're going to continue editing our Pull Request. To edit these files, I recommend installing any of these popular Text Editors.
+We're going to continue editing our Pull Request. To edit these files, the fastest way would probably be to use Vim. But installing and using any of these popular Text Editors is fine too.
 
+- [Vim](./06a_vim.md) *recommended*
 - [VSCode](https://code.visualstudio.com/)
 - [Atom](https://atom.io/)
 - [Sublime Text](https://www.sublimetext.com/)
-- You may also use Vim to edit these files if you'd like. More details can be found [here](./06a_vim.md).
 
-Once you've downloaded one of these text editors, open these files and make the corresponding changes.
+Open these files with a text editor and make the corresponding changes.
 
 1. Open `index.html` and add a class to your header
 
