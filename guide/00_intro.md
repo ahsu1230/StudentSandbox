@@ -2,7 +2,7 @@
 
 Please watch this video: <https://www.youtube.com/watch?v=r50BKIFGCI0>
 
-We'll start by giving a brief introduction to *Version Control*, which is a system you might have actually used before. Version Control is a system that allows a set files to be changed by multiple users and records a history of those changes.
+We'll start by giving a brief introduction to *Version Control*, which is a system you might have actually used before. Version Control is a system that allows a set of files to be changed by multiple users and records a history of those changes.
 
 Have you ever used Google Drive or Dropbox before? You can think of those as types of Version Control. Multiple users can edit documents and files simultaneously and Google Drive will keep track of who edited what documents and at what time.
 
