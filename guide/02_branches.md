@@ -18,7 +18,7 @@ When people work on features, it usually takes multiple commits to complete thei
 
 ## Feature Branching
 
-Instead, we can use branching to keep features isolated. Branching allows users to "branch" off the repo and make commits at their own pace. If a user's work is branched off, he/she is not affected by other teammates. When the user is finished working on his/her feature, they may "merge" their changes back to the master branch.
+Instead, we can use branching to keep features isolated. Branching allows users to "branch" off the repo and make commits at their own pace. If your work is branched off, your work is not affected by other teammates'. When you are finished working on your feature, you may "merge" your changes back into to the master branch.
 
 ![DIAGRAM_FEATURE_BRANCHES](images/diagram_feature_branches.png)
 

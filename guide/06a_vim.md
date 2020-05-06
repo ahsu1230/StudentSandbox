@@ -9,6 +9,10 @@ TLDR:
 
 > Uniquity: It’s available on basically every major platform you can think of. Whether you’re using a Mac, Windows, or some Linux distribution, Vim’s got you covered.
 
+![SCREENSHOT_GIT_BASH](images/screenshot_git_bash.png)
+
+For Windows, you will use Vim through Git Bash. You should have downloaded Git Bash automatically with Git through the link in the above article.
+
 Vim might seem pretty annoying to use at first and definitely has a learning curve. But, with a little bit of memorization and practice, you'll be able to get yourself around text files super quickly (and without a mouse!). If you ever want to meet a real-life wizard, go find a Vim-pro!
 
 ## Basic Vim Commands
