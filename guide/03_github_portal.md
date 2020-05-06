@@ -38,11 +38,11 @@ For instance, it's possible that a new feature might not be coded correctly. If 
 - Click on **Propose File Change**
 - Leave a comment and tag me `@ahsu1230` in the Pull Request description
 - **Create Pull Request**
-  - Do *NOT* merge the Pull Request yet. Wait for my approval before merging the Pull Request.
+  - Do *NOT* merge the Pull Request yet. We'll be doing more stuff to it before we finally can merge it.
 
 ![SCREENSHOT_PR](./images/screenshot_pr.png)
 
-Go ahead and navigate to the *Files* tab. The *Files* tab shows which files have been changed in this Pull Request. You should see that only one file has changed and only one line of that file has changed.
+Go ahead and navigate to the *Files changed* tab. This tab shows which files have been changed in this Pull Request. You should see that only one file has changed and only one line of that file has changed.
 
 ![SCREENSHOT_PR_FILES](./images/screenshot_pr_files.png)
 

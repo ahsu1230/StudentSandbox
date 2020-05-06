@@ -14,6 +14,8 @@ In the Terminal/Command Prompt, run this command to start cloning this repo.
 git clone https://github.com/ahsu1230/StudentSandbox.git
 ```
 
+Use `ls` to verify that a folder called `StudentSandbox` has been created in your current directory. Use `cd` to go into that folder. If you use `pwd`, you should now see that you're in the `StudentSandbox` folder. Because this is a git repository, you can start using git commands as long as you are in this directory.
+
 ## Retrieving your changes
 
 If you look at the files in your local repo, you should now see all the files that are part of this Git project. However, notice that in `index.html`, your change is NOT present. This is because the content we just downloaded is from the `master` branch. But we created a Pull Request off a different branch and have not merged it to `master` yet.
@@ -36,15 +38,22 @@ This command takes the remote branch `branch_aaron2` from Github and pulls (a.k.
 
 ## Make More Changes
 
-We're going to continue editing our Pull Request. Edit your line in `index.html` to have a class like this. And a corresponding color in `css/style.css`.
+We're going to continue editing our Pull Request. To edit these files, I recommend installing any of these popular Text Editors.
 
-1. Add a class to your header in `index.html`
+- [VSCode](https://code.visualstudio.com/)
+- [Atom](https://atom.io/)
+- [Sublime Text](https://www.sublimetext.com/)
+- You may also use Vim to edit these files if you'd like. More details can be found [here](./06a_vim.md).
+
+Once you've downloaded one of these text editors, open these files and make the corresponding changes.
+
+1. Open `index.html` and add a class to your header
 
 ```html
 <li><h3 class="goomba">Goomba was here!</h3></li>
 ```
 
-2. Define your CSS class with a color of your choice
+2. Open `css/style.css` and define your CSS class with a color of your choice
 
 ```css
 .goomba {
@@ -72,6 +81,8 @@ Use this command to check how every file has changed. The green lines (beginning
 git diff
 ```
 
+*Note* `git diff` will bring you into this weird program called `vim`. You'll notice you can't input any commands after you use `git diff`. We'll talk about it later, but for now simply press `q` to exit out of `git diff`.
+
 ## Staging and unstaging files
 
 Before creating a commit, you need to specify which files you want to actually want to include in the commit. Often times, it will be all the files you just changed. But sometimes, we don't want to commit everything, so there is a *stage* step before the commit step.
@@ -95,6 +106,17 @@ git commit -m "YOUR_MESSAGE_HERE"
 ```
 
 Check your status again using `git status`. You should see no unstaged files (because they're now committed). You should also see a message like this from your `status` command.
+
+## Using Vim
+
+Git comes with an interal editor which you'll need to use in order to be able to fully use many git functions. The internal editor is called Vim which has been used by all programmers since 1990! Next, we'll make a small edit to our git commit message.
+
+```git
+git commit --amend
+```
+
+Using this command will take you to the Vim screen. You can learn how to use Vim [here](./06a_vim.md). When you are finished editing your commit message however you like, input `:wq` (colon-w-q-Enter) to save your work. If you get into a bad state, use `q!` to quit out and abort your edits.
+
 
 ```git
 On branch branch_aaron2
