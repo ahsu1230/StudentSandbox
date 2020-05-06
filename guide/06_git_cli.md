@@ -107,16 +107,21 @@ git commit -m "YOUR_MESSAGE_HERE"
 
 Check your status again using `git status`. You should see no unstaged files (because they're now committed). You should also see a message like this from your `status` command.
 
-## Using Vim
+## Using Vim with Git
 
-Git comes with an interal editor which you'll need to use in order to be able to fully use many git functions. The internal editor is called Vim which has been used by all programmers since 1990! Next, we'll make a small edit to our git commit message.
+Git comes with an interal editor which you'll need to use in order to fully use many git functions. The internal editor is called Vim which is a "primitive", but very nifty text editor that's been used since 1990! We'll make a small edit to our git commit message using this command:
 
 ```git
 git commit --amend
 ```
 
-Using this command will take you to the Vim screen. You can learn how to use Vim [here](./06a_vim.md). When you are finished editing your commit message however you like, input `:wq` (colon-w-q-Enter) to save your work. If you get into a bad state, use `q!` to quit out and abort your edits.
+View this short tutorial to learn how to use Vim [here](./06a_vim.md). 
 
+Using the above command will automatically take you to the *Command* mode of Vim. Make a small edit to your commit message and when you are done, escape out of Vim's *INSERT* mode (and into *Command* mode) and enter: `:wq` (colon-w-q-Enter) to save your work and quit vim. If you don't want to continue editing, again, escape out of Vim's *INSERT* mode and use `:q!` (colon-q-!-Enter) to quit out and abort your edits.
+
+![SCREENSHOT_GIT_COMMIT_AMEND](./images/screenshot_git_commit_amend.png)
+
+## Pushing your commits
 
 ```git
 On branch branch_aaron2
@@ -124,11 +129,7 @@ Your branch is ahead of 'origin/branch_aaron2' by 1 commit.
 (use "git push" to publish your local commits)
 ```
 
-We're on the right track. This means that your local branch has a commit that the remote branch does not have on Github.
-
-## Pushing your commits
-
-Once your local branch is a few commits ahead of the remote branch, it's time to push (a.k.a. upload) the new commits to the remote. Use this command to push commits to the remote.
+We're on the right track. This means that your local branch has a commit that the remote branch does not have on Github. Once your local branch is at least a commit ahead of the remote branch, it's time to push (a.k.a. upload) the new commits to the remote. Use this command to push commits to the remote.
 
 ```git
 git push origin YOUR_BRANCH_NAME
