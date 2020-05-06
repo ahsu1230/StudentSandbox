@@ -18,7 +18,7 @@ Github is a company that provides a website portal to promote "social coding". B
 
 ## Sign up for Github!
 
-If you haven't already, take a moment to create an account at <https://github.com/>. Once you have created your account, email Aaron your Github username so he can give you write access to this Github repository.
+If you haven't already, take a moment to create an account at <https://github.com/>. Once you have created your account, **email Aaron your Github username so he can give you write access to this Github repository**. Aaron will send you a Github invite, which you must accept before being able to edit this Github repository.
 
 ---
 

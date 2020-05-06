@@ -36,6 +36,7 @@ For instance, it's possible that a new feature might not be coded correctly. If 
 ![SCREENSHOT_COMMIT_PR](./images/screenshot_pr_commit.png)
 
 - Click on **Propose File Change**
+  - If you get an error here, it may mean you don't have write permissions to create a Pull Request. Please email Aaron with your Github username to request write permissions.
 - Leave a comment and tag me `@ahsu1230` in the Pull Request description
 - **Create Pull Request**
   - Do *NOT* merge the Pull Request yet. We'll be doing more stuff to it before we finally can merge it.
