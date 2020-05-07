@@ -2,15 +2,15 @@
 
 Please watch this video: <https://www.youtube.com/watch?v=r50BKIFGCI0>
 
-We'll start by giving a brief introduction to *Version Control*, which is a system you might have actually used before. Version Control is a system that allows a set files to be changed by multiple users and records a history of those changes.
+We'll start by giving a brief introduction to *Version Control*, which is a system you might have actually used before. Version Control is a system that allows a set of files to be changed by multiple users and records a history of those changes.
 
 Have you ever used Google Drive or Dropbox before? You can think of those as types of Version Control. Multiple users can edit documents and files simultaneously and Google Drive will keep track of who edited what documents and at what time.
 
 ## What is Git?
 
-Git is a type of Version Control, but dedicated to coding. Git allows multiple users to simultaneously edit files and records those changes in a history log. Each of these history logs is a "backup version in the past", which you can revert back to whenever you'd like.
+Git is a type of Version Control, but dedicated to coding. Git allows multiple users to simultaneously edit files and records those changes in a history log. Each of these history logs is a "backup version from the past," which you can revert back to whenever you'd like.
 
-This is useful if you ever get into a situation where you are creating a feature but accidentally break other functionalities. With version control, you can easily revert back to an older version when the other functionalities are not broken!
+This is useful if you ever get into a situation where you are creating a feature but accidentally break other functionalities. With Version Control, you can easily revert back to an older version when the other functionalities are not broken!
 
 ## What is Github?
 
