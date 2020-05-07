@@ -25,7 +25,7 @@ CLI programs also differ between operating systems.
 - If you have a Mac, your software of choice would be Terminal
 - If you have Windows, your software would be Command Prompt.
 
-## Terminal (MacOS)
+## Terminal (MacOS/Linux)
 
 Take a look at this video: <https://www.youtube.com/watch?v=5XgBd6rjuDQ>
 
@@ -65,6 +65,8 @@ You want to know how to use the following commands:
 - `echo` Display a message!
 
 Google any of these commands to see how to use them! Each of these commands can often have many different options. You don't have to know all of them, but it's good to get into the habit of Googling for more information.
+
+***NOTE*** For Windows users, you may also be using the Git Bash CLI program which should've automatically been installed when you installed Git. Windows' Command Prompt does not automatically have the `git` and `vi` commands so if you ever need either, it's best to just use the Git Bash program. Git Bash allows you to use Git and input Linux commands on Windows, so you'll have to know how to use these Command Prompt commands (when using Command Prompt) and the above Linux Terminal commands (when using Git Bash).
 
 ---
 
