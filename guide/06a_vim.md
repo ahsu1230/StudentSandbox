@@ -11,7 +11,7 @@ TLDR:
 
 Vim might seem pretty annoying to use at first and definitely has a learning curve. But, with a little bit of memorization and practice, you'll be able to get yourself around text files super quickly (and without a mouse!). If you ever want to meet a real-life wizard, go find a Vim-pro!
 
-***NOTE*** For Windows, it's best to use Vim through Git Bash. Command Prompt does not automatically come with vim and Github so instead of installing both, use the Git Bash CLI program that will come with both. Git Bash should've been automatically installed when you installed Git on Windows. Git Bash is a program that allows you to use linux commands on Windows, so instead of following Windows CLI commands, follow the [Mac/Linux commands instead](./04_intro_cli.md).
+***NOTE*** For Windows, it's best to use Vim through Git Bash. Command Prompt does not automatically come with `vim` and `git` so instead of installing both, use the Git Bash program that will already have both. Git Bash should've been automatically installed when you installed Git on Windows. It is a CLI program that allows you to use Linux commands on Windows, so when using it, follow the [Mac/Linux commands instead](./04_intro_cli.md).
 
 ![SCREENSHOT_GIT_BASH](images/screenshot_git_bash.png)
 
